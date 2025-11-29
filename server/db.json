@@ -1,0 +1,5330 @@
+{
+  "patients": [
+    {
+      "patient_id": "P-001",
+      "disease_characteristics": {
+        "laterality": "left",
+        "primary_site": "breast",
+        "stage": {
+          "system": "AJCC 8th",
+          "t": "T2",
+          "n": "N1",
+          "m": "M0",
+          "overall_stage": "IIA"
+        }
+      },
+      "pathology": {
+        "histology": "invasive ductal carcinoma",
+        "grade": "2",
+        "report_date": "2024-01-15",
+        "lab": "XYZ Pathology Lab",
+        "specimen_id": "P23-1002",
+        "ihc": {
+          "ER": "positive",
+          "PR": "negative",
+          "HER2": "3+",
+          "Ki67": "25%"
+        },
+        "molecular": {
+          "BRCA1": "negative",
+          "BRCA2": "VUS",
+          "EGFR": "wild type"
+        }
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "date": "2024-01-18",
+          "findings": "left breast mass 3.1 cm, single axillary node, no distant mets"
+        },
+        "pet_ct": {
+          "date": "2024-01-22",
+          "findings": "FDG avid breast lesion, no bone uptake"
+        },
+        "bone_scan": {
+          "date": "2024-01-20",
+          "findings": "no skeletal metastases"
+        }
+      },
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "planned_regimen": "AC-T",
+        "start_date": "2024-02-01"
+      },
+      "metadata": {
+        "data_version": "1.0",
+        "entered_by": "Dr. Pagheh",
+        "source_doc_id": "path_2024_001",
+        "last_reviewed": "2024-02-05"
+      }
+    },
+    {
+      "_id": "patient_1762156450782",
+      "patient_id": "P-002",
+      "disease_characteristics": {
+        "primary_site": "colon",
+        "stage": {
+          "t": "2",
+          "n": "1",
+          "m": "0"
+        }
+      },
+      "pathology": {
+        "histology": "carcinoma",
+        "grade": "2"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest": "0",
+          "pelvis": "0",
+          "abdomen": "0"
+        }
+      },
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "planned_regimen": "folfox"
+      }
+    },
+    {
+      "patient_id": "P-003",
+      "_id": "patient_1762248440350",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "3",
+        "hb": "10.2",
+        "plt": "79",
+        "spep": "nl",
+        "tsh": "1.9",
+        "viral": "0",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "ldh": "330",
+        "ttg": "0",
+        "pbs": "reactive"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "spleen": "118",
+          "liver": "88"
+        }
+      }
+    },
+    {
+      "_id": "patient_1762248906604",
+      "patient_id": "P-004",
+      "lab": {
+        "wbc": "2.8",
+        "hb": "10.8",
+        "plt": "146",
+        "viral": "0",
+        "ace": "113",
+        "fana": "0"
+      }
+    },
+    {
+      "_id": "patient_1762249217390",
+      "patient_id": "P-005",
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest": "0",
+          "pelvis": "0",
+          "abdomen": "0",
+          "axilla": "1"
+        },
+        "bone_scan": {
+          "findings": "normal"
+        }
+      },
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "planned_regimen": "AC"
+      },
+      "disease_characteristics": {
+        "primary_site": "breast",
+        "stage": {
+          "t": "2",
+          "n": "0"
+        },
+        "laterality": "right"
+      },
+      "pathology": {
+        "ihc": {
+          "ER": "positive",
+          "PR": "positive",
+          "HER2": "0",
+          "Ki67": "10"
+        }
+      },
+      "pmh": {
+        "premature menopause": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40027",
+        "national_code": "4860236378",
+        "type": "hematologic",
+        "cc": "abortion",
+        "primary_diagnosis": "anemia"
+      },
+      "_id": "patient_1762249604167",
+      "patient_id": "P-006",
+      "lab": {
+        "wbc": "12.6",
+        "hb": "11.1",
+        "plt": "119",
+        "tsh": "nl",
+        "ferritin": "26",
+        "d3": "10"
+      },
+      "pmh": {
+        "Appendectomy": "1",
+        "hydatid cyst": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40026",
+        "national_code": "6289215159",
+        "type": "oncologic",
+        "cc": "sigmoid cancer"
+      },
+      "_id": "patient_1762249888885",
+      "patient_id": "P-007",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "planned_regimen": "folfox",
+        "plan": {
+          "regimen": "folfox",
+          "surgery": "1"
+        }
+      },
+      "disease_characteristics": {
+        "primary_site": "sigmoid",
+        "stage": {
+          "t": "3",
+          "n": "0"
+        }
+      },
+      "pathology": {
+        "ihc": {
+          "mmr": "pmmr"
+        }
+      },
+      "pmh": {
+        "htn": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40025",
+        "national_code": "2030663115",
+        "type": "hematologic",
+        "cc": "menorrhagia"
+      },
+      "_id": "patient_1762250125744",
+      "patient_id": "P-008",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "ferinject"
+        }
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl"
+        },
+        "gastric": {
+          "colonoscopy ": {
+            "status": "nl"
+          },
+          "endoscopy ": {
+            "status": "nl"
+          }
+        }
+      },
+      "lab": {
+        "wbc": "5.1",
+        "hb": "9",
+        "plt": "320",
+        "ferritin": "4.5",
+        "mcv": "71"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40024",
+        "national_code": "2030109241",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762250454777",
+      "patient_id": "P-009",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "mds"
+        }
+      },
+      "imaging_baseline": {
+        "gastric": {
+          "colonoscopy ": {
+            "status": "abnormal",
+            "hemorrhoid": "1"
+          }
+        }
+      },
+      "lab": {
+        "wbc": "6.3",
+        "hb": "11.3",
+        "plt": "203",
+        "tsh": "9.8",
+        "ferritin": "219",
+        "ttg": "0",
+        "spep": "nl",
+        "mcv": "92",
+        "esr": "56",
+        "calprotectin": "182"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40023",
+        "national_code": "2560125961",
+        "type": "hematologic",
+        "cc": "weight loss",
+        "primary_diagnosis": "anemia"
+      },
+      "_id": "patient_1762250746530",
+      "patient_id": "P-010",
+      "treatment_plan_baseline": {
+        "plan": {
+          "regimen": "supportive"
+        }
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl"
+        }
+      },
+      "lab": {
+        "wbc": "5.6",
+        "hb": "11.8",
+        "plt": "199",
+        "tsh": "7.9",
+        "ferritin": "24",
+        "spep": "nl",
+        "anti_tpo": "positive",
+        "epo": "17"
+      },
+      "pmh": {
+        "hypothyroidism": "1",
+        "Psoriasis": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40022",
+        "national_code": "2031841343",
+        "type": "oncologic",
+        "cc": "breast mass",
+        "primary_diagnosis": "breast cancer"
+      },
+      "_id": "patient_1762250990107",
+      "patient_id": "P-011",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "TCHP"
+        }
+      },
+      "imaging_baseline": {
+        "bone_scan": {
+          "findings": "nl"
+        }
+      },
+      "lab": {
+        "viral": "0",
+        "cea": "3.7",
+        "ca15-3": "35"
+      },
+      "disease_characteristics": {
+        "primary_site": "breast",
+        "stage": {
+          "t": "2",
+          "n": "0"
+        },
+        "laterality": "left"
+      },
+      "pathology": {
+        "ihc": {
+          "ER": "70",
+          "PR": "negative",
+          "HER2": "3+"
+        },
+        "histology": "invasive ductal carcinoma",
+        "grade": "1"
+      },
+      "pmh": {
+        "Menopause": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40021",
+        "national_code": "4979785603",
+        "type": "hematologic",
+        "cc": "thrombocytopenia",
+        "primary_diagnosis": "itp"
+      },
+      "_id": "patient_1762251328826",
+      "patient_id": "P-012",
+      "treatment_plan_baseline": {
+        "intent": "supportive"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "spleen": "nl",
+          "liver": "nl",
+          "prostate": "53mm"
+        }
+      },
+      "lab": {
+        "wbc": "5.2",
+        "hb": "13.1",
+        "plt": "131",
+        "cr": "1.21",
+        "secondory_wu": "nl"
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40020",
+        "national_code": "2249124124",
+        "type": "hematologic",
+        "cc": "Leukocytosis",
+        "primary_diagnosis": "cll"
+      },
+      "_id": "patient_1762251590760",
+      "patient_id": "P-013",
+      "imaging_baseline": {
+        "sonpography": {
+          "spleen": "160",
+          "liver": "nl",
+          "axilla": "lap",
+          "inguinal ": "lap"
+        }
+      },
+      "lab": {
+        "wbc": "92",
+        "hb": "10.1",
+        "plt": "75",
+        "spep": "nl",
+        "ldh": "402",
+        "esr": "21",
+        "cr": "1.4",
+        "ca": "8.5",
+        "pmn": "3",
+        "lym": "93",
+        "coombs": "negative",
+        "b2-micro": "5.5"
+      },
+      "pathology": {
+        "bma-b": {
+          "cellularity ": "95",
+          "lymphocyte": "90",
+          "dx": "cll"
+        },
+        "flowcytometry": {
+          "cd20": "positive"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40019",
+        "national_code": "3611848018",
+        "type": "hematologic",
+        "cc": "fatigue"
+      },
+      "_id": "patient_1762252237484",
+      "patient_id": "P-014",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "ferinject"
+        }
+      },
+      "lab": {
+        "wbc": "4.9",
+        "hb": "10.1",
+        "plt": "253",
+        "ferritin": "2.11",
+        "mcv": "83"
+      },
+      "pmh": {
+        "menoraghia": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40018",
+        "national_code": "2242731527",
+        "type": "oncologic",
+        "cc": "mass",
+        "primary_diagnosis": "nasopharynx cancer"
+      },
+      "_id": "patient_1762252505866",
+      "patient_id": "P-015",
+      "pathology": {
+        "histology": "nasopharyngeal carcinoma"
+      },
+      "disease_characteristics": {
+        "primary_site": "nasopharynx"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40017",
+        "national_code": "5799405986",
+        "type": "oncologic",
+        "cc": "cough",
+        "primary_diagnosis": "NSCLC"
+      },
+      "_id": "patient_1762252671328",
+      "patient_id": "P-016",
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "mass": "50*73",
+            "lap": "positive"
+          }
+        },
+        "bone_scan": {
+          "findings": "nl"
+        },
+        "mri": {
+          "brain": {
+            "status": "nl"
+          }
+        }
+      },
+      "lab": {
+        "tsh": "1.2",
+        "viral": "0"
+      },
+      "pathology": {
+        "histology": "poor diffrentiaed adenocarcinoma",
+        "ihc": {
+          "Ki67": "55",
+          "ck7": "positive",
+          "ck20": "negative",
+          "ttf-1": "positive",
+          "pdl1": "11",
+          "egfr": "positive"
+        }
+      },
+      "pmh": {
+        "cardiac": "3vd"
+      },
+      "disease_characteristics": {
+        "stage": {
+          "t": "2a",
+          "n": "2"
+        }
+      },
+      "sh": {
+        "smoker": "positive",
+        "addict": "positive"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40016",
+        "national_code": "4860296656",
+        "type": "hematologic",
+        "primary_diagnosis": "IDA"
+      },
+      "_id": "patient_1762253403646",
+      "patient_id": "P-017",
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl"
+        }
+      },
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "ferinject"
+        }
+      },
+      "lab": {
+        "wbc": "6.7",
+        "hb": "9.1",
+        "plt": "161",
+        "ferritin": "21",
+        "spep": "nl",
+        "mcv": "88",
+        "esr": "60",
+        "coombs": "negative",
+        "b12": "561",
+        "hb_e": {
+          "a2": "2.1"
+        }
+      },
+      "pmh": {
+        "menoraghia": "0",
+        "abortion": "0",
+        "Pregnancy": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40016",
+        "national_code": "2031810456",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762253784801",
+      "patient_id": "P-018",
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl"
+        }
+      },
+      "treatment_plan_baseline": {
+        "intent": "supportive"
+      },
+      "lab": {
+        "wbc": "9.2",
+        "hb": "9",
+        "plt": "248",
+        "spep": "polyclonal",
+        "esr": "101",
+        "cr": "5.4",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "epo": "8.2",
+        "ca": "7.9",
+        "b2-micro": "25",
+        "sife": "polyclonal"
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1",
+        "cardiac": "cabg",
+        "esrd": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40015",
+        "national_code": "2030073822",
+        "type": "oncologic",
+        "cc": "lung mass",
+        "primary_diagnosis": "lung cancer"
+      },
+      "_id": "patient_1762254154659",
+      "patient_id": "P-019",
+      "pmh": {
+        "htn": "1",
+        "hypothyroidism": "1",
+        "other": "radiotherapy to lung"
+      },
+      "pathology": {
+        "histology": "adenoid cystic carcinoma"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40014",
+        "national_code": "4889658432",
+        "type": "oncologic",
+        "cc": "known cancer"
+      },
+      "_id": "patient_1762254443653",
+      "patient_id": "P-020",
+      "imaging_baseline": {
+        "mri": {
+          "abdomen ": {
+            "status": "abnormal",
+            "findings ": "multifocal hcc",
+            "lap": "paraaortic"
+          }
+        }
+      },
+      "treatment_plan_baseline": {
+        "intent": "supportive",
+        "plan": {
+          "regimen": "sorafenib"
+        }
+      },
+      "lab": {
+        "wbc": "9.2",
+        "hb": "10.1",
+        "plt": "176",
+        "tsh": "3.31",
+        "cr": "1.5",
+        "cea": "1.9",
+        "inr": "1.1",
+        "alb": "3.6",
+        "bili-t": "5.6",
+        "biti-d": "2.7",
+        "afp": "400",
+        "ca19-9": "13"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40013",
+        "national_code": "4888764816",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762254869537",
+      "patient_id": "P-021",
+      "lab": {
+        "wbc": "8.8",
+        "hb": "10.8",
+        "plt": "119"
+      },
+      "pmh": {
+        "htn": "1",
+        "abortion": "2"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40012",
+        "national_code": "2239636106",
+        "type": "hematologic",
+        "cc": "leukopenia "
+      },
+      "_id": "patient_1762254973462",
+      "patient_id": "P-022",
+      "lab": {
+        "wbc": "3.2",
+        "hb": "12.7",
+        "plt": "202",
+        "mcv": "86",
+        "pmn": "62",
+        "lym": "35"
+      },
+      "pmh": {
+        "dm": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40011",
+        "national_code": "6280081664",
+        "type": "oncologic",
+        "cc": "shoulder mass",
+        "primary_diagnosis": "dfsp"
+      },
+      "patient_id": "P-023",
+      "_id": "patient_1762255369146",
+      "imaging_baseline": {
+        "sonpography": {
+          "thyroid": "nodule 5.8*5.9mm"
+        }
+      },
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "surgery": "with unknown margin"
+        }
+      },
+      "pathology": {
+        "histology": "dermatofibrosarcoma protuberans",
+        "ihc": {
+          "Ki67": "15",
+          "cd34": "positive"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40010",
+        "national_code": "2269805496",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762255815297",
+      "patient_id": "P-024",
+      "lab": {
+        "wbc": "3.9",
+        "hb": "9.5",
+        "plt": "194",
+        "spep": "nl",
+        "ferritin": "513",
+        "mcv": "78",
+        "viral": "0",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "ldh": "448",
+        "epo": "2.3",
+        "pmn": "58",
+        "lym": "40",
+        "coombs": "negative",
+        "fana": "0",
+        "anti_tpo": "92",
+        "b12": "1000",
+        "hb_e": {
+          "a2": "2.5"
+        }
+      },
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "pmh": {
+        "menoraghia": "1",
+        "abortion": "3",
+        "other": "bypass surgery + p.c transfusion"
+      }
+    },
+    {
+      "info": {
+        "file_number": "4009",
+        "national_code": "2269087313",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762256163351",
+      "patient_id": "P-025",
+      "lab": {
+        "wbc": "8.4",
+        "hb": "9.5",
+        "plt": "273",
+        "ferritin": "56",
+        "tsh": "0.42",
+        "mcv": "89",
+        "viral": "0",
+        "esr": "98",
+        "cr": "2.31",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "epo": "4.3",
+        "fana": "67",
+        "anti-dsdna": "386"
+      },
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "regimen": "mds+eprex"
+        }
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "kidney": "moderate hydropephrosis in right kidney "
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1",
+        "hypothyroidism": "1",
+        "ckd": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "4008",
+        "national_code": "4889719350",
+        "type": "hematologic",
+        "cc": "bicytopenia",
+        "primary_diagnosis": "mds"
+      },
+      "_id": "patient_1762256486259",
+      "patient_id": "P-026",
+      "lab": {
+        "wbc": "2.5",
+        "hb": "10.8",
+        "plt": "196",
+        "ferritin": "73",
+        "spep": "nl",
+        "tsh": "3",
+        "mcv": "80",
+        "fana": "0",
+        "pmn": "55",
+        "lym": "43",
+        "2me": "0",
+        "wright": "1/120"
+      },
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "regimen": "mds"
+        }
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "abnormal",
+          "spleen": "98mm",
+          "liver": "grade 2 fatty liver"
+        }
+      },
+      "pmh": {
+        "asthma": "1"
+      },
+      "pathology": {
+        "bma-b": {
+          "cellularity ": "60",
+          "dx": "mds",
+          "fe": "1/5",
+          "m/e": "0.7",
+          "mega": "nl"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "4007",
+        "national_code": "4869489988",
+        "type": "oncologic",
+        "cc": "known rectal cancer",
+        "primary_diagnosis": "rectal cancer"
+      },
+      "_id": "patient_1762256974895",
+      "patient_id": "P-027",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "xelox",
+          "radiotherapy": "1"
+        }
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "abdomen": "distal sigomid + rectum",
+          "findings": "distal sigomid + rectum"
+        }
+      },
+      "pathology": {
+        "histology": "adenocarcinoma"
+      },
+      "disease_characteristics": {
+        "primary_site": "rectum",
+        "stage": {
+          "t": "3",
+          "n": "2"
+        }
+      },
+      "sh": {
+        "addict": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "4006",
+        "national_code": "4880142514",
+        "type": "oncologic",
+        "cc": "hpv positive",
+        "primary_diagnosis": "HSIL"
+      },
+      "_id": "patient_1762257302405",
+      "patient_id": "P-028",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "surgery": "recommended"
+        }
+      },
+      "pathology": {
+        "grade": "cin1/2"
+      }
+    },
+    {
+      "info": {
+        "file_number": "4005",
+        "national_code": "2269573609",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762257589968",
+      "patient_id": "P-029",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "mds+iron"
+        }
+      },
+      "lab": {
+        "wbc": "5.4",
+        "hb": "11.4",
+        "plt": "236",
+        "ferritin": "41",
+        "spep": "nl",
+        "tsh": "2",
+        "mcv": "83",
+        "esr": "4",
+        "cr": "0.61",
+        "coombs": "negative",
+        "b12": "1000"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "spleen": "nl",
+          "liver": "nl"
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "4004",
+        "national_code": "2239638540",
+        "type": "hematologic",
+        "cc": "consultation "
+      },
+      "_id": "patient_1762257812541",
+      "patient_id": "P-030",
+      "pmh": {
+        "aki": "atn"
+      }
+    },
+    {
+      "info": {
+        "file_number": "4003",
+        "national_code": "4879317810",
+        "type": "oncologic",
+        "cc": "known gastric cancer"
+      },
+      "_id": "patient_1762257933318",
+      "patient_id": "P-031",
+      "treatment_plan_baseline": {
+        "intent": "supportive",
+        "plan": {
+          "regimen": "palliative care "
+        }
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "abdomen": "gastric mass + hepatic mets >65mm mass",
+          "chest": "pulmonary mets"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "4002",
+        "national_code": "2031857487",
+        "type": "oncologic",
+        "cc": "bicytopenia"
+      },
+      "_id": "patient_1762258110941",
+      "patient_id": "P-032",
+      "lab": {
+        "wbc": "2.5",
+        "hb": "11.5",
+        "plt": "159",
+        "ferritin": "46",
+        "spep": "gamma peak",
+        "mcv": "70",
+        "pmn": "40",
+        "lym": "57",
+        "hb_e": {
+          "a2": "3.4"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "4001",
+        "national_code": "2031666002",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762258770703",
+      "patient_id": "P-033",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "iron",
+          "other": "gastroenterologist consultation recommended"
+        }
+      },
+      "lab": {
+        "wbc": "35",
+        "hb": "9.1",
+        "plt": "150",
+        "ferritin": "140",
+        "spep": "nl",
+        "mcv": "83",
+        "tsh": "2.5",
+        "viral": "0",
+        "esr": "15",
+        "ast": "30",
+        "alt": "21",
+        "coombs": "negative",
+        "hb_e": {
+          "a2": "2.2"
+        },
+        "d3": "18",
+        "calprotectin": "398",
+        "fe": "70"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40060",
+        "national_code": "2121724559",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "anemia"
+      },
+      "_id": "patient_1762259198951",
+      "patient_id": "P-034",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "4.9",
+        "hb": "7.8",
+        "plt": "212",
+        "ferritin": "7.9",
+        "viral": "0"
+      },
+      "pmh": {
+        "other": "sleeve surgery"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40059",
+        "national_code": "2180469683",
+        "type": "oncologic",
+        "cc": "dr amiriani refer",
+        "primary_diagnosis": "gastric cancer"
+      },
+      "_id": "patient_1762259367666",
+      "patient_id": "P-035",
+      "treatment_plan_baseline": {
+        "intent": "supportive",
+        "plan": {
+          "regimen": "capecitabine"
+        }
+      },
+      "lab": {
+        "tsh": "4.8",
+        "cr": "0.76",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "cea": "2.4",
+        "ca19-9": "24"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "nl"
+          },
+          "abdomen ": {
+            "status": "abnormall",
+            "lap": "0",
+            "mass": "1"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1"
+      },
+      "pathology": {
+        "histology": "adenocarcinoma",
+        "ihc": {
+          "HER2": "0",
+          "pdl1": "0",
+          "mlh1": "0",
+          "pms2": "0"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40058",
+        "national_code": "4979433553",
+        "type": "oncologic",
+        "cc": "dr yolme refer",
+        "primary_diagnosis": "esophageal cancer"
+      },
+      "_id": "patient_1762260002380",
+      "patient_id": "P-036",
+      "treatment_plan_baseline": {
+        "intent": "supportive",
+        "plan": {
+          "radiotherapy": "palliative",
+          "other": "savari dilation"
+        }
+      },
+      "imaging_baseline": {
+        "gastric": {
+          "endoscopy ": {
+            "status": "abnormal",
+            "finding": "esophageal mass / Failure to pass the scope"
+          }
+        }
+      },
+      "pathology": {
+        "histology": "poorly differentiated carcinoma"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40057",
+        "national_code": "2031494392",
+        "type": "hematologic",
+        "cc": "polycythemia"
+      },
+      "_id": "patient_1762260269072",
+      "patient_id": "P-037",
+      "lab": {
+        "wbc": "9.1",
+        "hb": "18.1",
+        "plt": "143",
+        "ferritin": "23",
+        "mcv": "86",
+        "epo": "35",
+        "ca": "11.2",
+        "psa": "nl"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "spleen": "104mm",
+          "liver": "126mm"
+        },
+        "ct_scan": {
+          "chest1": {
+            "status": "nl"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1",
+        "bph": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40056",
+        "national_code": "2121552197",
+        "type": "hematologic",
+        "cc": "alopecia areta",
+        "primary_diagnosis": "alopecia areta"
+      },
+      "_id": "patient_1762260755655",
+      "patient_id": "P-038"
+    },
+    {
+      "info": {
+        "file_number": "40055",
+        "national_code": "0",
+        "type": "oncologic",
+        "cc": "known gastric cancer",
+        "primary_diagnosis": "gastric cancer"
+      },
+      "patient_id": "P-039",
+      "_id": "patient_1762260823608",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "folfox"
+        }
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "findings": "nl?"
+        },
+        "gastric": {
+          "eus": {
+            "status": "abnormal",
+            "finding": "gastric lesser curvature mass"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1"
+      },
+      "pathology": {
+        "histology": "moderate diffrentiated adenocarcinoma"
+      },
+      "disease_characteristics": {
+        "primary_site": "gastric",
+        "stage": {
+          "t": "3",
+          "n": "1"
+        }
+      },
+      "fh": {
+        "gastric": "brother"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40054",
+        "national_code": "6358923641",
+        "type": "oncologic",
+        "cc": "relapse of known tcc ",
+        "primary_diagnosis": "relapsed mets tcc"
+      },
+      "_id": "patient_1762261213434",
+      "patient_id": "P-040",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "pembrolizumab",
+          "surgery": "previously done",
+          "other": "previously gem+cis"
+        }
+      },
+      "lab": {
+        "wbc": "3.6",
+        "hb": "11.9",
+        "plt": "215"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40053",
+        "national_code": "2030988847",
+        "type": "oncologic",
+        "cc": "hapatic mass (mets)",
+        "primary_diagnosis": "mets colon cancer"
+      },
+      "_id": "patient_1762261510697",
+      "patient_id": "P-041",
+      "treatment_plan_baseline": {
+        "intent": "curative"
+      },
+      "lab": {
+        "cea": "29",
+        "ca19-9": "133"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "abnormal",
+            "mass": "60mm right",
+            "lap": "Mediastinum"
+          },
+          "abdomen ": {
+            "status": "abnormal",
+            "mass": "multiple hepatic mass"
+          }
+        },
+        "gastric": {
+          "colonoscopy ": {
+            "status": "nl",
+            "findings": "colon is suspected"
+          },
+          "endoscopy ": {
+            "status": "nl"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40052",
+        "national_code": "2031052276",
+        "type": "oncologic",
+        "cc": "breast mass",
+        "primary_diagnosis": "breast cancer"
+      },
+      "_id": "patient_1762261940280",
+      "patient_id": "P-042",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "AC-taxol weekly-let"
+        }
+      },
+      "lab": {
+        "cea": "7.8",
+        "ca15-3": "27.2"
+      },
+      "pathology": {
+        "histology": "invasive ductal carcinoma",
+        "ihc": {
+          "HER2": "0",
+          "Ki67": "30",
+          "ER": "90",
+          "PR": "80"
+        }
+      },
+      "disease_characteristics": {
+        "primary_site": "breast",
+        "stage": {
+          "t": "2",
+          "n": "2"
+        },
+        "laterality": "left"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40051",
+        "national_code": "2020910365",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "IDA"
+      },
+      "_id": "patient_1762262470215",
+      "patient_id": "P-043",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "iron"
+        }
+      },
+      "lab": {
+        "wbc": "7.8",
+        "hb": "6.3",
+        "plt": "399",
+        "mcv": "77",
+        "mch": "21"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl"
+        }
+      },
+      "pmh": {
+        "menoraghia": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40050",
+        "national_code": "2031275518",
+        "type": "hematologic",
+        "cc": "loc + seizure",
+        "primary_diagnosis": "hypercalcemia"
+      },
+      "_id": "patient_1762262660129",
+      "patient_id": "P-044",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "esr": "120",
+        "ast": "34",
+        "alt": "44",
+        "alp": "1870",
+        "ca": "15",
+        "d3": "24",
+        "sife": "polyclonal",
+        "afp": "0",
+        "2me": "0",
+        "wright": "0",
+        "psa": "3.2",
+        "pth": "180",
+        "gamma": "24"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "findings": "nl w/o contrast"
+        },
+        "gastric": {
+          "colonoscopy ": {
+            "status": "nl"
+          },
+          "endoscopy ": {
+            "status": "abnormal",
+            "finding": "gastritis"
+          }
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40049",
+        "national_code": "5799401557",
+        "type": "oncologic",
+        "cc": "bicytopenia",
+        "primary_diagnosis": "MM"
+      },
+      "_id": "patient_1762263073417",
+      "patient_id": "P-045",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "VRD 10"
+        }
+      },
+      "lab": {
+        "wbc": "3.6",
+        "hb": "10.1",
+        "plt": "194",
+        "spep": "gamma peak",
+        "tsh": "2.6",
+        "esr": "85",
+        "cr": "0.94",
+        "ca": "8.4",
+        "sife": "igG/k",
+        "gamma": "42",
+        "kappa/lamda": "1233/35",
+        "beta2micro": "3.6",
+        "uife": "4950",
+        "hba1c": "8.5"
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1"
+      },
+      "pathology": {
+        "histology": "MM",
+        "bma-b": {
+          "cellularity ": "42.5",
+          "dx": "MM",
+          "plasma-cell": "35"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40048",
+        "national_code": "4880148164",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "IDA"
+      },
+      "_id": "patient_1762263608361",
+      "patient_id": "P-046",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "iron"
+        }
+      },
+      "lab": {
+        "wbc": "9.5",
+        "hb": "8.7",
+        "plt": "269",
+        "ferritin": "30",
+        "mcv": "73",
+        "cr": ".79",
+        "ca": "8.1",
+        "fe": "24"
+      },
+      "pmh": {
+        "menoraghia": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40047",
+        "national_code": "4869081768",
+        "type": "hematologic",
+        "cc": "limb pain"
+      },
+      "_id": "patient_1762263820077",
+      "patient_id": "P-047",
+      "treatment_plan_baseline": {
+        "plan": {
+          "other": "treat underlying disease"
+        }
+      },
+      "lab": {
+        "wbc": "9.3",
+        "hb": "12.6",
+        "plt": "238",
+        "mcv": "68",
+        "spep": "nl",
+        "cr": "1",
+        "mch": "20",
+        "hba1c": "11.3",
+        "fbs": "295"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "liver": "grade 1 fatty liver"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40046",
+        "national_code": "4889660593",
+        "type": "hematologic",
+        "cc": "bone pain",
+        "primary_diagnosis": "anemia"
+      },
+      "_id": "patient_1762264090408",
+      "patient_id": "P-048",
+      "lab": {
+        "wbc": "9.2",
+        "hb": "13",
+        "plt": "218",
+        "mcv": "79",
+        "mch": "26"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40045",
+        "national_code": "2112441906",
+        "type": "oncologic",
+        "cc": "lap neck"
+      },
+      "patient_id": "P-049",
+      "_id": "patient_1762264186031",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "regimen": "iron"
+        }
+      },
+      "lab": {
+        "wbc": "5.2",
+        "hb": "11",
+        "plt": "248",
+        "ferritin": "nl",
+        "spep": "nl",
+        "esr": "18",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "fana": "0",
+        "ldh": "424",
+        "ttg": "0"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "abnormal",
+          "neck": {
+            "status": "abnormal",
+            "finding": "multiple reactive lap "
+          }
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40044",
+        "national_code": "2239795859",
+        "type": "hematologic",
+        "cc": "headache",
+        "primary_diagnosis": "anemia"
+      },
+      "_id": "patient_1762264556988",
+      "patient_id": "P-050",
+      "treatment_plan_baseline": {
+        "intent": "curative"
+      },
+      "lab": {
+        "wbc": "4.4",
+        "hb": "12.3",
+        "plt": "177",
+        "ferritin": "22",
+        "esr": "9",
+        "cr": "0.77",
+        "viral": "0",
+        "ast": "33",
+        "alt": "31",
+        "alp": "177",
+        "epo": "4.3",
+        "pmn": "41",
+        "lym": "52",
+        "ttg": "0",
+        "anti_tpo": "0",
+        "2me": "0"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "breast": {
+            "birads": "2"
+          },
+          "pelvis": {
+            "status": "nl",
+            "finding": "myoma 40mm"
+          }
+        },
+        "graphy": {
+          "mamography": {
+            "birads": "0"
+          }
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40043",
+        "national_code": "2248978545",
+        "type": "oncologic",
+        "cc": "dr tavassoli refer",
+        "primary_diagnosis": "colon cancer",
+        "cancer_type": "solid"
+      },
+      "_id": "patient_1762265030224",
+      "patient_id": "P-051",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "xelox",
+          "surgery": "rt hemicolectomy"
+        }
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "nl"
+          },
+          "abdomen ": {
+            "status": "abnormal",
+            "mass": "hepatic flexure mass",
+            "lap": "regional hepatic flexure"
+          },
+          "axilla": "reactive lap"
+        },
+        "gastric": {
+          "colonoscopy ": {
+            "status": "abnormal",
+            "findings": "hepatic flexure mass"
+          }
+        }
+      },
+      "pmh": {
+        "dm": "1"
+      },
+      "pathology": {
+        "histology": "moderately differentiated adenocarcinoma"
+      },
+      "disease_characteristics": {
+        "primary_site": "colon",
+        "stage": {
+          "t": "3",
+          "n": "0/3"
+        },
+        "laterality": "right colic flexure"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40042",
+        "national_code": "6289386212",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "SLE"
+      },
+      "_id": "patient_1762265554035",
+      "patient_id": "P-052",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "regimen": "mds",
+          "other": "refer to rheumatologist"
+        }
+      },
+      "lab": {
+        "wbc": "4.2",
+        "hb": "9.6",
+        "plt": "322",
+        "spep": "gamma peak",
+        "tsh": "1.3",
+        "viral": "0",
+        "pmn": "57",
+        "lym": "37",
+        "fana": "1.32",
+        "coombs": "negative",
+        "hb_e": {
+          "a2": "2.6"
+        },
+        "anti_tpo": "2.4",
+        "sife": "igG/k very weak",
+        "gamma": "21",
+        "anti-ccp": "200"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "abnormal",
+            "mass": "thoracolumbar spine fx",
+            "lap": "mediastinum",
+            "finding": "bilateral pleural effusion"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1"
+      },
+      "pathology": {
+        "bma-b": {
+          "cellularity ": "10",
+          "dx": "fibrosis",
+          "plasma-cell": "4",
+          "blast": "3"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40041",
+        "national_code": "203225772",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "IDA"
+      },
+      "_id": "patient_1762266376544",
+      "patient_id": "P-053",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "regimen": "iron-txa",
+          "other": "colonoscopy recommended"
+        }
+      },
+      "lab": {
+        "wbc": "5.7",
+        "hb": "11.9",
+        "plt": "271",
+        "ferritin": "5.7",
+        "cea": "nl",
+        "ca19-9": "11.5"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40040",
+        "national_code": "6280164896",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762266561437",
+      "patient_id": "P-054",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "7.3",
+        "hb": "12.3",
+        "plt": "311",
+        "mcv": "76",
+        "mch": "24"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40039",
+        "national_code": "2031038354",
+        "type": "oncologic",
+        "cc": "skin mass + lap",
+        "primary_diagnosis": "supraclavicular lap + skin mass"
+      },
+      "_id": "patient_1762266693413",
+      "patient_id": "P-055",
+      "treatment_plan_baseline": {
+        "intent": "curative"
+      },
+      "lab": {
+        "wbc": "10.4",
+        "hb": "7.7",
+        "plt": "200",
+        "esr": "105"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40038",
+        "national_code": "2249566976",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "thalassemia"
+      },
+      "_id": "patient_1762266847353",
+      "patient_id": "P-056",
+      "treatment_plan_baseline": {
+        "intent": "supportive",
+        "plan": {
+          "regimen": "mds-eprex"
+        }
+      },
+      "lab": {
+        "wbc": "8.5",
+        "hb": "8.7",
+        "plt": "193",
+        "ferritin": "35",
+        "mcv": "58",
+        "spep": "nl",
+        "tsh": "4.4",
+        "esr": "10",
+        "cr": "1.4",
+        "viral": "0",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "pmn": "59",
+        "lym": "30",
+        "epo": "6.3",
+        "coombs": "negative",
+        "hb_e": {
+          "a2": "5.3"
+        },
+        "mch": "17",
+        "fe": "89"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "liver": "nl",
+          "spleen": "nl",
+          "prostate": "37mm"
+        }
+      },
+      "pmh": {
+        "dm": "1",
+        "ckd": "1",
+        "thalassemia": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40037",
+        "national_code": "3710075645",
+        "type": "hematologic",
+        "cc": "thrombocytopenia",
+        "primary_diagnosis": "ITP"
+      },
+      "_id": "patient_1762267198367",
+      "patient_id": "P-057",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "14",
+        "hb": "13.7",
+        "plt": "95"
+      },
+      "pmh": {
+        "hypothyroidism": "1",
+        "abortion": "0"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40036",
+        "national_code": "4888752850",
+        "type": "hematologic",
+        "cc": "limb pain + leucopenia",
+        "primary_diagnosis": "TB"
+      },
+      "_id": "patient_1762267381547",
+      "patient_id": "P-058",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "other": "refer to infectiologist"
+        }
+      },
+      "lab": {
+        "wbc": "0.811",
+        "hb": "10.5",
+        "plt": "260",
+        "tsh": "1.6",
+        "esr": "7",
+        "d3": "21.6",
+        "2me": "0",
+        "wright": "0",
+        "ppd": "21mm"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40035",
+        "national_code": "4870043637",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "thalassemia + IDA"
+      },
+      "_id": "patient_1762267834081",
+      "patient_id": "P-059",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "iron"
+        }
+      },
+      "lab": {
+        "wbc": "4.7",
+        "hb": "7.7",
+        "plt": "324",
+        "ferritin": "3.9",
+        "mcv": "59",
+        "ldh": "172",
+        "retic": "2.2"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40034",
+        "national_code": "2122375507",
+        "type": "oncologic",
+        "cc": "pulmonologist refer",
+        "primary_diagnosis": "SCLC",
+        "cancer_type": "solid"
+      },
+      "_id": "patient_1762268013322",
+      "patient_id": "P-060",
+      "treatment_plan_baseline": {
+        "intent": "curative"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "abnormal",
+          "liver": "metastasis"
+        },
+        "ct_scan": {
+          "chest1": {
+            "status": "abnormal",
+            "mass": "hil right lung",
+            "lap": "mediastinum",
+            "finding": "rml collapse"
+          },
+          "abdomen ": {
+            "status": "abnormal",
+            "mass": "hepatic masa",
+            "lap": "hepatic lap"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "cardiac": "CHF + CABG"
+      },
+      "disease_characteristics": {
+        "primary_site": "lung",
+        "laterality": "right"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40043",
+        "national_code": "5209507157",
+        "type": "oncologic",
+        "cc": "cancer",
+        "primary_diagnosis": "MM",
+        "cancer_type": "non-solid"
+      },
+      "_id": "patient_1762268343829",
+      "patient_id": "P-061",
+      "treatment_plan_baseline": {
+        "intent": "supportive",
+        "plan": {
+          "other": "continue treatment with dr pourkhani"
+        }
+      },
+      "lab": {
+        "wbc": "3.9",
+        "hb": "8.4",
+        "plt": "36",
+        "esr": "103"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40032",
+        "national_code": "4889842578",
+        "type": "hematologic",
+        "cc": "leucocytosis",
+        "primary_diagnosis": "infection"
+      },
+      "_id": "patient_1762268568054",
+      "patient_id": "P-062",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "19",
+        "hb": "11",
+        "plt": "250",
+        "ferritin": "19",
+        "spep": "polyclonal",
+        "esr": "17",
+        "viral": "0",
+        "pmn": "69",
+        "lym": "24",
+        "sife": "nl",
+        "2me": "0",
+        "kappa/lamda": "316/211",
+        "uife": "nl"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "abnormal",
+          "liver": "155mm grade 1 fatty liver",
+          "spleen": "123mm",
+          "pelvis": {
+            "status": "abnormal",
+            "finding": "50*28mm r/o hydatid cyst"
+          }
+        },
+        "ct_scan": {
+          "chest1": {
+            "status": "nl"
+          }
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40031",
+        "national_code": "4979847285",
+        "type": "oncologic",
+        "cc": "ovarian mass",
+        "primary_diagnosis": "ovarian cancer",
+        "cancer_type": "solid"
+      },
+      "patient_id": "P-063",
+      "_id": "patient_1762269162478",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "taxol-carbo-stivant"
+        }
+      },
+      "lab": {
+        "wbc": "7.9",
+        "hb": "11.2",
+        "plt": "482",
+        "tsh": "3/4",
+        "cr": "2.48",
+        "ca125": "500"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "abnormal",
+            "finding": "bilateral pleural effusion "
+          },
+          "abdomen ": {
+            "status": "abnormal",
+            "mass": "cystic ovarian mass",
+            "lap": "seeding",
+            "finding": "ascites / seeding"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1",
+        "ckd": "1"
+      },
+      "disease_characteristics": {
+        "primary_site": "ovary"
+      },
+      "fh": {
+        "ovarian": "mother"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40062",
+        "national_code": "4869612933",
+        "type": "oncologic",
+        "cc": "breast mass",
+        "primary_diagnosis": "breast cancer",
+        "cancer_type": "solid"
+      },
+      "_id": "patient_1762271427425",
+      "patient_id": "P-064",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "AC - taxol/carbo weekly - capecitabine",
+          "radiotherapy": "1"
+        }
+      },
+      "lab": {
+        "cr": "0.8",
+        "viral": "0",
+        "cea": "3.6",
+        "ca15-3": "139"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "breast": {
+            "finding": "80*60*90mm mass"
+          }
+        },
+        "ct_scan": {
+          "chest1": {
+            "status": "nl"
+          },
+          "abdomen ": {
+            "status": "nl"
+          },
+          "pelvis": "nl"
+        },
+        "bone_scan": {
+          "status": "nl"
+        }
+      },
+      "pmh": {
+        "htn": "1"
+      },
+      "pathology": {
+        "histology": "invasive ductal carcinoma",
+        "ihc": {
+          "HER2": "0",
+          "Ki67": "80",
+          "ER": "negative",
+          "PR": "negative"
+        },
+        "molecular": {
+          "BRCA1": "?",
+          "BRCA2": "?"
+        }
+      },
+      "disease_characteristics": {
+        "primary_site": "breast",
+        "stage": {
+          "t": "2",
+          "n": "0"
+        },
+        "laterality": "right"
+      },
+      "fh": {
+        "breast": "sister"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40063",
+        "national_code": "2269669509",
+        "type": "oncologic",
+        "cc": "colon mass",
+        "primary_diagnosis": "colon cancer",
+        "cancer_type": "solid"
+      },
+      "_id": "patient_1762272011102",
+      "patient_id": "P-065",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "folfox",
+          "surgery": "rectosigmoidectomy",
+          "radiotherapy": "1"
+        }
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "nl"
+          },
+          "pelvis": "nl"
+        },
+        "gastric": {
+          "colonoscopy ": {
+            "status": "abnormal",
+            "findings": "sigmoid mass"
+          }
+        }
+      },
+      "pmh": {
+        "dm": "1"
+      },
+      "pathology": {
+        "ihc": {
+          "HER2": "0",
+          "Ki67": "40",
+          "mmr": "pmmr"
+        }
+      },
+      "disease_characteristics": {
+        "primary_site": "colon",
+        "stage": {
+          "t": "2",
+          "n": "1b"
+        },
+        "laterality": "sigmoid"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40065",
+        "national_code": "2031535870",
+        "type": "oncologic",
+        "cc": "colon mass",
+        "primary_diagnosis": "colon cancer",
+        "cancer_type": "solid"
+      },
+      "_id": "patient_1762272521240",
+      "patient_id": "P-066",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "folfox",
+          "surgery": "subtotal colectomy"
+        }
+      },
+      "lab": {
+        "cr": "1.1",
+        "viral": "0",
+        "cea": "1.1",
+        "ca19-9": "3.9"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "nl"
+          }
+        },
+        "gastric": {
+          "colonoscopy ": {
+            "status": "abnormal",
+            "findings": "left colon mass"
+          },
+          "endoscopy ": {
+            "status": "nl"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1",
+        "hypothyroidism": "1"
+      },
+      "pathology": {
+        "ihc": {
+          "HER2": "0",
+          "mmr": "pmmr"
+        }
+      },
+      "disease_characteristics": {
+        "primary_site": "colon",
+        "stage": {
+          "t": "3",
+          "n": "0"
+        },
+        "laterality": "left "
+      }
+    },
+    {
+      "info": {
+        "file_number": "40066",
+        "national_code": "2031932012",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "intravascular hemolysis"
+      },
+      "_id": "patient_1762272917727",
+      "patient_id": "P-067",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "regimen": "mds"
+        }
+      },
+      "lab": {
+        "wbc": "4.8",
+        "hb": "10.2",
+        "plt": "265",
+        "ferritin": "40",
+        "mcv": "90",
+        "spep": "nl",
+        "tsh": "0.82",
+        "esr": "7",
+        "cr": "0.9",
+        "viral": "hbs",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "coombs": "negative",
+        "fana": "0",
+        "ca": "9",
+        "ldh": "1071",
+        "fe": "41",
+        "retic": "1",
+        "haptoglobin": "< 1",
+        "oft": "nl"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl"
+        },
+        "gastric": {
+          "colonoscopy ": {
+            "status": "nl",
+            "findings": "hemorrhoid "
+          },
+          "endoscopy ": {
+            "status": "nl",
+            "finding": "reflux"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "cardiac": "mitral valve repair surgery",
+        "hepatitis_b": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40068",
+        "national_code": "4889655336",
+        "type": "oncologic",
+        "cc": "known breast cancer",
+        "primary_diagnosis": "breast cancer",
+        "cancer_type": "solid"
+      },
+      "_id": "patient_1762273611148",
+      "patient_id": "P-068",
+      "treatment_plan_baseline": {
+        "intent": "curative"
+      },
+      "lab": {
+        "cea": "5.9",
+        "ca15-3": "4.7"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "abnormal",
+            "finding": "mets"
+          },
+          "abdomen ": {
+            "status": "abnormal",
+            "finding": "liver spleen mets"
+          }
+        },
+        "bone_scan": {
+          "findings": "t5 t8 l5",
+          "status": "abnormal"
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1"
+      },
+      "pathology": {
+        "ihc": {
+          "HER2": "0",
+          "ER": "0",
+          "PR": "0"
+        }
+      },
+      "disease_characteristics": {
+        "primary_site": "breast",
+        "laterality": "right"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40067",
+        "national_code": "2020392119",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "celiac "
+      },
+      "_id": "patient_1762273964115",
+      "patient_id": "P-069",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "other": "gastroenterologist consultation recommended"
+        }
+      },
+      "lab": {
+        "wbc": "7.6",
+        "hb": "13.6",
+        "plt": "221",
+        "ferritin": "20",
+        "mcv": "79",
+        "mch": "25"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40069",
+        "national_code": "6289958577",
+        "type": "hematologic",
+        "cc": "thrombocytopenia",
+        "primary_diagnosis": "ITP"
+      },
+      "_id": "patient_1762274465611",
+      "patient_id": "P-070",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "regimen": "iron"
+        }
+      },
+      "lab": {
+        "wbc": "7.8",
+        "hb": "11.1",
+        "plt": "97",
+        "ferritin": "33"
+      },
+      "pmh": {
+        "Pregnancy": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40092",
+        "national_code": "6249400941",
+        "type": "oncologic",
+        "cc": "known gastric cancer",
+        "primary_diagnosis": "gastric cancer"
+      },
+      "_id": "patient_1762681012202",
+      "patient_id": "P-071",
+      "treatment_plan_baseline": {
+        "intent": "supportive"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "abnormal",
+            "finding": "pleural effusion"
+          },
+          "abdomen ": {
+            "status": "abnormal",
+            "lap": "positive",
+            "finding": "colon mets"
+          }
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40091",
+        "national_code": "2122213264",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "IDA"
+      },
+      "_id": "patient_1762681198730",
+      "patient_id": "P-072",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "iron"
+        }
+      },
+      "lab": {
+        "wbc": "6.7",
+        "hb": "10.7",
+        "plt": "132",
+        "ferritin": "42",
+        "mcv": "88",
+        "tsh": "2.6",
+        "esr": "17",
+        "cr": "0.8",
+        "viral": "0",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "pmn": "58",
+        "lym": "33",
+        "fana": "14",
+        "ldh": "252",
+        "d3": "30",
+        "b12": "288",
+        "inr": "1",
+        "anti-dsdna": "43"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl"
+        }
+      },
+      "pmh": {
+        "hypothyroidism": "1",
+        "menoraghia": "1",
+        "abortion": "1",
+        "asthma": "1"
+      },
+      "fh": {
+        "leukemia": "sister",
+        "lymphoma": "mother"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40090",
+        "national_code": "4979297935",
+        "type": "oncologic",
+        "cc": "screening"
+      },
+      "_id": "patient_1762681654906",
+      "patient_id": "P-073",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "other": "sonography + mamography f/u"
+        }
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "breast": {
+            "birads": "2"
+          }
+        },
+        "graphy": {
+          "mamography": {
+            "birads": "2"
+          }
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40089",
+        "national_code": "2160100250",
+        "type": "hematologic",
+        "cc": "fatigue"
+      },
+      "_id": "patient_1762681847915",
+      "patient_id": "P-074",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "iron + vit_b"
+        }
+      },
+      "lab": {
+        "wbc": "3.9",
+        "hb": "8",
+        "plt": "245",
+        "ferritin": "15",
+        "mcv": "72",
+        "tsh": "2.8",
+        "cr": "1",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "pmn": "22",
+        "hb_e": {
+          "a2": "2.3"
+        },
+        "d3": "19",
+        "b12": "368"
+      },
+      "pmh": {
+        "menoraghia": "1",
+        "abortion": "0",
+        "other": "bypass surgery "
+      }
+    },
+    {
+      "info": {
+        "file_number": "40088",
+        "national_code": "2030754609",
+        "type": "hematologic",
+        "cc": "itching"
+      },
+      "_id": "patient_1762682218074",
+      "patient_id": "P-075",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "6.9",
+        "hb": "11.9",
+        "plt": "215",
+        "spep": "nl",
+        "esr": "54",
+        "ldh": "625",
+        "igE": "0",
+        "ama": "0"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "abnormal",
+          "liver": "grade 2 fatty liver"
+        }
+      },
+      "fh": {
+        "pruritus": "0"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40087",
+        "national_code": "2121132813",
+        "type": "hematologic",
+        "cc": "thrombocytopenia"
+      },
+      "_id": "patient_1762682464003",
+      "patient_id": "P-076",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "4.1",
+        "hb": "13.1",
+        "plt": "137",
+        "ferritin": "88",
+        "tsh": "0.9",
+        "viral": "0",
+        "psa": "nl"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "abnormal",
+          "liver": "grade 2 fatty liver"
+        }
+      },
+      "pmh": {
+        "cardiac": "CAD"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40086",
+        "national_code": "4880176176",
+        "type": "oncologic",
+        "cc": "low back pain",
+        "primary_diagnosis": "DLBCL"
+      },
+      "_id": "patient_1762682726154",
+      "patient_id": "P-077",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "RCHOP",
+          "radiotherapy": "1"
+        }
+      },
+      "imaging_baseline": {
+        "bone_scan": {
+          "findings": "left iliac , right femor head",
+          "status": "abnormal"
+        }
+      },
+      "pathology": {
+        "histology": "dlbcl",
+        "ihc": {
+          "Ki67": "70",
+          "cd20": "1",
+          "cd45": "1",
+          "cd3": "0",
+          "bcl6": "1",
+          "bcl2": "0"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40085",
+        "national_code": "2031464086",
+        "type": "oncologic",
+        "cc": "f/u colon cancer"
+      },
+      "_id": "patient_1762683179659",
+      "patient_id": "P-078",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "cr": "1.17",
+        "cea": "1.3",
+        "ca19-9": "37"
+      },
+      "imaging_baseline": {
+        "gastric": {
+          "colonoscopy ": {
+            "status": "nl"
+          },
+          "endoscopy ": {
+            "status": "nl"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1",
+        "hlp": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40084",
+        "national_code": "2030978868",
+        "type": "hematologic",
+        "cc": "polycythemia"
+      },
+      "_id": "patient_1762683396682",
+      "patient_id": "P-079",
+      "treatment_plan_baseline": {
+        "intent": "supportive",
+        "plan": {
+          "regimen": "asa + rivaroxaban",
+          "other": "bma + rheumatology consualtion"
+        }
+      },
+      "lab": {
+        "wbc": "4",
+        "hb": "21.1",
+        "plt": "135",
+        "mcv": "84",
+        "pmn": "42",
+        "lym": "44",
+        "ca": "9.3"
+      },
+      "pmh": {
+        "htn": "1",
+        "p.vera": "1"
+      },
+      "symptoms": "Palm pruritus"
+    },
+    {
+      "info": {
+        "file_number": "40083",
+        "national_code": "0049158228",
+        "type": "hematologic",
+        "cc": "polycythemia",
+        "primary_diagnosis": "polycythemia"
+      },
+      "_id": "patient_1762683812307",
+      "patient_id": "P-080",
+      "treatment_plan_baseline": {
+        "intent": "supportive"
+      },
+      "lab": {
+        "wbc": "6.1",
+        "hb": "16.4",
+        "plt": "278",
+        "ferritin": "279",
+        "mcv": "93",
+        "cr": "1.1",
+        "ldh": "300",
+        "hb_e": {
+          "a2": "2.8"
+        },
+        "d3": "20",
+        "mch": "37",
+        "jak2": "0"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "prostate": "72mm"
+        },
+        "ct_scan": {
+          "chest1": {
+            "status": "nl"
+          },
+          "abdomen ": {
+            "status": "nl"
+          }
+        }
+      },
+      "pathology": {
+        "molecular": {
+          "JAK2": "0"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40082",
+        "national_code": "0778563634",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "IDA"
+      },
+      "_id": "patient_1762684209687",
+      "patient_id": "P-081",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "iron_iv",
+          "other": "gastroenterologist consultation recommended"
+        }
+      },
+      "lab": {
+        "wbc": "6.1",
+        "hb": "9.8",
+        "plt": "362",
+        "ferritin": "9.9",
+        "mcv": "67",
+        "cr": "0.8",
+        "spep": "nl",
+        "esr": "40",
+        "fe": "62"
+      },
+      "imaging_baseline": {
+        "gastric": {
+          "colonoscopy ": {
+            "status": "abnormal",
+            "findings": "internal haemorrhoid"
+          },
+          "endoscopy ": {
+            "status": "abnormal",
+            "finding": "gastritis"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40081",
+        "national_code": "4970371156",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "IDA"
+      },
+      "_id": "patient_1762684538556",
+      "patient_id": "P-082",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "iron"
+        }
+      },
+      "lab": {
+        "wbc": "6.1",
+        "hb": "7.4",
+        "plt": "212",
+        "ferritin": "7.9"
+      },
+      "pmh": {
+        "Pregnancy": "positive"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40080",
+        "national_code": "6289875221",
+        "type": "oncologic",
+        "cc": "headache",
+        "primary_diagnosis": "DLBCL"
+      },
+      "_id": "patient_1762684654972",
+      "patient_id": "P-083",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "other": "bma + ct "
+        }
+      },
+      "pathology": {
+        "histology": "Non-GCB Diffuse Large B-Cell Lymphoma",
+        "ihc": {
+          "cd20": "1",
+          "cd45": "1",
+          "bcl2": "1",
+          "mvm1": "1"
+        }
+      },
+      "signs": "right hemiparesis"
+    },
+    {
+      "info": {
+        "file_number": "40079",
+        "national_code": "2239597127"
+      },
+      "_id": "patient_1762684986532",
+      "patient_id": "P-084"
+    },
+    {
+      "info": {
+        "file_number": "40078",
+        "national_code": "0491827016",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "malabsorption celiac disease"
+      },
+      "_id": "patient_1762685013763",
+      "patient_id": "P-085",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "other": "gastroenterologist refer"
+        }
+      },
+      "lab": {
+        "wbc": "6",
+        "hb": "11",
+        "plt": "325",
+        "ferritin": "71",
+        "mcv": "75",
+        "tsh": "3.4",
+        "coombs": "negative",
+        "hb_e": {
+          "a2": "2.2"
+        },
+        "d3": "19.8",
+        "mch": "22",
+        "ttg": "300",
+        "igA": "nl"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "abnormal",
+          "liver": "grade 1-2 fatty liver"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40077",
+        "national_code": "4869469405",
+        "type": "hematologic",
+        "cc": "thrombocytopenia",
+        "primary_diagnosis": "MDS"
+      },
+      "_id": "patient_1762685263900",
+      "patient_id": "P-086",
+      "treatment_plan_baseline": {
+        "intent": "supportive"
+      },
+      "lab": {
+        "wbc": "4.4",
+        "hb": "10.5",
+        "plt": "60",
+        "mcv": "82",
+        "mch": "25"
+      },
+      "pmh": {
+        "dm": "1",
+        "cva": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40076",
+        "national_code": "4869201331",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "esrd anemia"
+      },
+      "_id": "patient_1762685547891",
+      "patient_id": "P-087",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "other": "nephrologistconsultation recommended"
+        }
+      },
+      "lab": {
+        "wbc": "9.2",
+        "hb": "9.8",
+        "plt": "151",
+        "mcv": "89",
+        "cr": "4.9",
+        "spep": "nl",
+        "mch": "30"
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1",
+        "esrd": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40075",
+        "national_code": "0"
+      },
+      "_id": "patient_1762685725340",
+      "patient_id": "P-088"
+    },
+    {
+      "info": {
+        "file_number": "40074",
+        "national_code": "6289221221",
+        "type": "oncologic",
+        "cc": "limb pain ",
+        "primary_diagnosis": "GI cancer metastatic mets"
+      },
+      "_id": "patient_1762685750700",
+      "patient_id": "P-089",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "taxol+carbo+zolena"
+        }
+      },
+      "lab": {
+        "wbc": "5.7",
+        "hb": "12.4",
+        "plt": "168",
+        "spep": "nl",
+        "tsh": "2.3",
+        "esr": "45",
+        "ast": "40",
+        "alt": "57",
+        "ldh": "653",
+        "d3": "57",
+        "sife": "polyclonal",
+        "kappa/lamda": "292/141",
+        "bili-t": "1.59",
+        "biti-d": "0.5"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "findings": "multiple lytic lesions in limbs , vertebrae, pelvis",
+          "status": "abnormal",
+          "pelvis1": {
+            "status": "abnormal",
+            "lap": "bilateral iliac lap"
+          }
+        },
+        "bone_scan": {
+          "findings": "widespread bone mets",
+          "status": "abnormal"
+        },
+        "mri": {
+          "spine": {
+            "status": "abnormal",
+            "findings": "multiple mass in thorasic lumbar sacral vertebrae / intradural mass"
+          }
+        }
+      },
+      "pathology": {
+        "histology": "adenocarcinoma"
+      },
+      "signs": "Gait disturbance"
+    },
+    {
+      "info": {
+        "file_number": "40073",
+        "national_code": "4590964635",
+        "type": "hematologic",
+        "cc": "check up"
+      },
+      "_id": "patient_1762686602756",
+      "patient_id": "P-090",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "8.1",
+        "hb": "12",
+        "plt": "260",
+        "mcv": "91",
+        "cr": "1",
+        "esr": "34",
+        "psa": "0.6"
+      },
+      "pmh": {
+        "htn": "1",
+        "cva": "1",
+        "pneumonia": "1"
+      },
+      "symptoms": "Anorexia"
+    },
+    {
+      "info": {
+        "file_number": "40072",
+        "national_code": "4979344895",
+        "type": "oncologic",
+        "cc": "gastroenterologist refer",
+        "primary_diagnosis": "colon cancer cecum"
+      },
+      "_id": "patient_1762686777404",
+      "patient_id": "P-091",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "surgery": "right hemicolectomy"
+        }
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "nl",
+            "finding": "ro covid / large med"
+          },
+          "abdomen ": {
+            "status": "nl",
+            "finding": "liver cyst"
+          }
+        },
+        "gastric": {
+          "colonoscopy ": {
+            "status": "abnormal",
+            "findings": "cecum mass"
+          },
+          "endoscopy ": {
+            "status": "nl"
+          }
+        },
+        "bone_scan": {
+          "findings": "degenerative changes",
+          "status": "nl"
+        }
+      },
+      "pmh": {
+        "dm": "1"
+      },
+      "pathology": {
+        "histology": "adenocarcinoma",
+        "ihc": {
+          "HER2": "0",
+          "mmr": "pmmr"
+        }
+      },
+      "disease_characteristics": {
+        "primary_site": "colon",
+        "stage": {
+          "t": "3",
+          "n": "0"
+        },
+        "laterality": "cecum"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40071",
+        "national_code": "2268872955",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "IDA"
+      },
+      "_id": "patient_1762687391277",
+      "patient_id": "P-092",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "iron iv"
+        }
+      },
+      "lab": {
+        "wbc": "14.1",
+        "hb": "10.4",
+        "plt": "430",
+        "ferritin": "3.6",
+        "mcv": "73",
+        "tsh": "2.7",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "d3": "27",
+        "fe": "40",
+        "fbs": "117"
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1",
+        "hypothyroidism": "1",
+        "depression": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40070",
+        "national_code": "4970318697",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "IDA"
+      },
+      "_id": "patient_1762687752405",
+      "patient_id": "P-093",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "iron"
+        }
+      },
+      "lab": {
+        "wbc": "13.9",
+        "hb": "8.7",
+        "plt": "259",
+        "ferritin": "12",
+        "mcv": "75",
+        "cr": "0.76",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "ldh": "374",
+        "d3": "23",
+        "hb_e": {
+          "a2": "2.5"
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "Pregnancy": "positive"
+      },
+      "dh": {
+        "methyldopa": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400126",
+        "national_code": "4879773085",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762688001613",
+      "patient_id": "P-094",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "mds"
+        }
+      },
+      "lab": {
+        "wbc": "6.8",
+        "hb": "12.7",
+        "plt": "267",
+        "mcv": "105",
+        "tsh": "3.6",
+        "esr": "27",
+        "pmn": "47",
+        "lym": "47",
+        "mch": "55"
+      },
+      "pmh": {
+        "cardiac": "CAD",
+        "alzheimer": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400124",
+        "national_code": "0",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "IDA"
+      },
+      "_id": "patient_1762688665006",
+      "patient_id": "P-095",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "iron"
+        }
+      },
+      "lab": {
+        "wbc": "6.3",
+        "hb": "12.9",
+        "plt": "223",
+        "ferritin": "9.1",
+        "tsh": "1.33",
+        "d3": "74",
+        "b12": "nl"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "liver": "130mm",
+          "spleen": "85mm"
+        }
+      },
+      "pmh": {
+        "menoraghia": "0",
+        "abortion": "0",
+        "migraine": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400124",
+        "national_code": "6289721453",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762688846629",
+      "patient_id": "P-096",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "mds"
+        }
+      },
+      "lab": {
+        "wbc": "7.7",
+        "hb": "10.4",
+        "plt": "391",
+        "ferritin": "99",
+        "tsh": "2.6",
+        "hba1c": "6.17"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "liver": "grade 1 fatty liver",
+          "breast": {
+            "birads": "2"
+          },
+          "neck": {
+            "status": "nl",
+            "finding": "thyroid nl"
+          }
+        },
+        "graphy": {
+          "mamography": {
+            "birads": "2"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1",
+        "hypothyroidism": "1",
+        "Menopause": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400122",
+        "national_code": "2111300829",
+        "type": "hematologic",
+        "cc": "check up"
+      },
+      "_id": "patient_1762689307101",
+      "patient_id": "P-097",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "7.4",
+        "hb": "13.9",
+        "plt": "177",
+        "mcv": "77",
+        "mch": "25"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400121",
+        "national_code": "2020288524",
+        "type": "oncologic",
+        "cc": "breast mass",
+        "primary_diagnosis": "breast cancer"
+      },
+      "_id": "patient_1762689372517",
+      "patient_id": "P-098",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "Tdm1+zolena",
+          "other": "taxol+herceptin by Dr.Sadr (t3n0)"
+        }
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "abnormal",
+            "finding": "thoracolumbar vertebrae mets"
+          },
+          "abdomen ": {
+            "status": "abnormal",
+            "finding": "liver mets"
+          },
+          "brain": {
+            "status": "nl"
+          }
+        },
+        "bone_scan": {
+          "findings": "bone multi mets rib t11",
+          "status": "abnormal"
+        }
+      },
+      "pathology": {
+        "ihc": {
+          "HER2": "positive",
+          "Ki67": "60",
+          "ER": "negative",
+          "PR": "negative"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "400120",
+        "national_code": "4979119859",
+        "type": "hematologic",
+        "cc": "check up"
+      },
+      "_id": "patient_1762689850813",
+      "patient_id": "P-099",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "6.3",
+        "hb": "13.7",
+        "plt": "229",
+        "esr": "40",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "2me": "0"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "abnormal",
+          "liver": "131mm",
+          "spleen": "140mm",
+          "prostate": "35mm"
+        }
+      },
+      "pmh": {
+        "htn": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400118",
+        "national_code": "4979295436",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "ckd immunosuppressive anemia"
+      },
+      "_id": "patient_1762690009941",
+      "patient_id": "P-100",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "4.5",
+        "hb": "7.6",
+        "plt": "162",
+        "ferritin": "232",
+        "mcv": "87",
+        "esr": "34",
+        "cr": "2.5",
+        "spep": "nl",
+        "viral": "0",
+        "ast": "13",
+        "alt": "12",
+        "coombs": "negative",
+        "epo": "132",
+        "b2-micro": "6.1"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "liver": "128mm",
+          "spleen": "120mm",
+          "prostate": "25mm",
+          "kidney": "140mm transplanted kidney"
+        },
+        "gastric": {
+          "colonoscopy ": {
+            "status": "abnormal",
+            "findings": "internal hemorrhoid "
+          },
+          "endoscopy ": {
+            "status": "abnormal",
+            "finding": "antrum peptic ulcer"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "esrd": "transplanted"
+      },
+      "pathology": {
+        "bma-b": {
+          "cellularity ": "40",
+          "dx": "myeloid hypogranular",
+          "fe": "4-5/5",
+          "m/e": "2"
+        }
+      },
+      "dh": {
+        "cellcept": "1500",
+        "sandimmun": "125",
+        "eprex": "10000"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40017",
+        "national_code": "2030829056",
+        "type": "oncologic",
+        "cc": "headache"
+      },
+      "patient_id": "P-101",
+      "_id": "patient_1762690821461",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "surgery": "total thyroidectomy"
+        }
+      },
+      "lab": {
+        "tsh": "0.9",
+        "ast": "nl",
+        "alt": "nl",
+        "alp": "nl",
+        "thyroglobulin": "nl"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "neck": {
+            "status": "nl",
+            "finding": "without lap"
+          },
+          "thyroid": "nl "
+        },
+        "bone_scan": {
+          "status": "nl"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "400115",
+        "national_code": "0759261741",
+        "type": "oncologic",
+        "cc": "abdominal pain",
+        "primary_diagnosis": "nl"
+      },
+      "_id": "patient_1762691294670",
+      "patient_id": "P-102",
+      "treatment_plan_baseline": {
+        "intent": "supportive"
+      },
+      "lab": {
+        "ldh": "523",
+        "cea": "0.6",
+        "ca19-9": "4.5",
+        "ca125": "5.2"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "breast": {
+            "birads": "2"
+          }
+        },
+        "ct_scan": {
+          "chest1": {
+            "status": "nl"
+          },
+          "abdomen ": {
+            "status": "nl"
+          }
+        },
+        "gastric": {
+          "colonoscopy ": {
+            "status": "nl"
+          },
+          "endoscopy ": {
+            "status": "abnormal",
+            "finding": "duodenal ulcer"
+          }
+        }
+      },
+      "symptoms": "rectorrhagia / weight loss"
+    },
+    {
+      "info": {
+        "file_number": "400114",
+        "national_code": "5319942192",
+        "type": "hematologic",
+        "cc": "thrombocytopenia"
+      },
+      "_id": "patient_1762691565623",
+      "patient_id": "P-103",
+      "treatment_plan_baseline": {
+        "intent": "supportive",
+        "plan": {
+          "regimen": "prednisolone"
+        }
+      },
+      "lab": {
+        "wbc": "6.3",
+        "hb": "13",
+        "plt": "132",
+        "ferritin": "262"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400113",
+        "national_code": "2030096210",
+        "type": "hematologic",
+        "cc": "vision disturbance"
+      },
+      "_id": "patient_1762691838167",
+      "patient_id": "P-104",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "10.4",
+        "hb": "11.7",
+        "plt": "338",
+        "esr": "42",
+        "spep": "nl",
+        "viral": "0",
+        "ldh": "665",
+        "fana": "0",
+        "sife": "polyclonal",
+        "2me": "0",
+        "psa": "nl"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "nl"
+          }
+        },
+        "mri": {
+          "brain": {
+            "status": "abnormal",
+            "findings": "thickening of meninge / Increased absorption around cranial nerves "
+          }
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "400112",
+        "national_code": "6289922361",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762692297599",
+      "patient_id": "P-105",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "7.9",
+        "hb": "4.8",
+        "plt": "355",
+        "ferritin": "5.17",
+        "mcv": "57",
+        "tsh": "1.3",
+        "esr": "79",
+        "viral": "0",
+        "pmn": "70",
+        "lym": "20",
+        "mch": "15",
+        "cea": "1.8"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "liver": "128mm",
+          "spleen": "133mm"
+        }
+      },
+      "pmh": {
+        "other": "p.c transfusion"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400111",
+        "national_code": "6289424815",
+        "type": "oncologic",
+        "cc": "left lower limb amputation",
+        "primary_diagnosis": "chondrosarcoma"
+      },
+      "_id": "patient_1762692562081",
+      "patient_id": "P-106",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "surgery": "transfemoral amputation"
+        }
+      },
+      "imaging_baseline": {
+        "bone_scan": {
+          "findings": "degenerative changes",
+          "status": "nl"
+        }
+      },
+      "pathology": {
+        "histology": "chondrosarcoma"
+      },
+      "disease_characteristics": {
+        "primary_site": "limb",
+        "laterality": "left "
+      }
+    },
+    {
+      "info": {
+        "file_number": "400110",
+        "national_code": "4869468220",
+        "type": "oncologic",
+        "cc": "nephrologist refer",
+        "primary_diagnosis": "ro brucellosis"
+      },
+      "_id": "patient_1762692929239",
+      "patient_id": "P-107",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "10",
+        "hb": "11.6",
+        "plt": "139",
+        "cr": "2.2",
+        "spep": "gamma peak",
+        "viral": "0",
+        "ca": "10.5",
+        "sife": "polyclonal",
+        "2me": "1/80",
+        "b2-micro": "5.8",
+        "wright": "1/160",
+        "upep": "gamma peak"
+      },
+      "pmh": {
+        "aki": "1",
+        "bipolar": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400109",
+        "national_code": "0",
+        "type": "oncologic",
+        "cc": "gastroenterologist refer"
+      },
+      "_id": "patient_1762693311987",
+      "patient_id": "P-108",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "other": "biopsy recommended"
+        }
+      },
+      "lab": {
+        "tsh": "2.2",
+        "viral": "hbs",
+        "ast": "524",
+        "alt": "440",
+        "alp": "1517",
+        "ca19-9": "449",
+        "bili-t": "2.8",
+        "biti-d": "0.8",
+        "afp": "300",
+        "ca125": "453"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "abdomen ": {
+            "status": "abnormal",
+            "finding": "multiple hepatic mass 118mm / acsite / seeding"
+          }
+        },
+        "gastric": {
+          "colonoscopy ": {
+            "status": "nl"
+          },
+          "endoscopy ": {
+            "status": "abnormal",
+            "finding": "esophageal varices"
+          }
+        }
+      },
+      "pmh": {
+        "hepatitis_b": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400108",
+        "national_code": "2111130966",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762693640184",
+      "patient_id": "P-109",
+      "treatment_plan_baseline": {
+        "intent": "curative"
+      },
+      "lab": {
+        "wbc": "6.4",
+        "hb": "13.4",
+        "plt": "217",
+        "ferritin": "20",
+        "mcv": "82",
+        "viral": "0",
+        "mch": "27",
+        "d3": "92",
+        "hb_e": {
+          "a2": "2.7"
+        },
+        "retic": "0.7"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "abdomen ": {
+            "status": "nl"
+          },
+          "pelvis1": {
+            "status": "nl",
+            "findings": "non specific lap"
+          }
+        }
+      },
+      "pmh": {
+        "menoraghia": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400107",
+        "national_code": "3673981277",
+        "type": "oncologic",
+        "cc": "surgeon refer",
+        "primary_diagnosis": "rcc"
+      },
+      "_id": "patient_1762693910057",
+      "patient_id": "P-110",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "surgery": "left nephrectomy"
+        }
+      },
+      "lab": {
+        "wbc": "8.1",
+        "hb": "12.2",
+        "plt": "85",
+        "cr": "1.66",
+        "ldh": "243"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "abnormal",
+            "finding": "Mediastinal lap / pulmonary nodules"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1"
+      },
+      "pathology": {
+        "histology": "rcc",
+        "grade": "2"
+      },
+      "disease_characteristics": {
+        "primary_site": "kidney",
+        "stage": {
+          "t": "3a",
+          "n": "0"
+        },
+        "laterality": "left"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400106",
+        "national_code": "2239730951",
+        "type": "oncologic",
+        "cc": "surgeon refer",
+        "primary_diagnosis": "breast cancer",
+        "cancer_type": "solid"
+      },
+      "_id": "patient_1762694389917",
+      "patient_id": "P-111",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "AC+zolena / taxol"
+        }
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "abnormal",
+          "breast": {
+            "finding": "15*8mm mass / right axillary lap ",
+            "status": "abnormal"
+          }
+        },
+        "ct_scan": {
+          "chest1": {
+            "status": "abnormal",
+            "finding": "old fx of t12 / right pleural efusion "
+          },
+          "abdomen ": {
+            "status": "nl"
+          }
+        },
+        "bone_scan": {
+          "findings": "right 8th rib",
+          "status": "abnormal"
+        }
+      },
+      "pathology": {
+        "histology": "invasive ductal carcinoma",
+        "ihc": {
+          "HER2": "0",
+          "Ki67": "20",
+          "ER": "90",
+          "PR": "0"
+        }
+      },
+      "disease_characteristics": {
+        "primary_site": "breast",
+        "stage": {
+          "m": "1"
+        },
+        "laterality": "right"
+      },
+      "fh": {
+        "breast": "mother / uncle's daughter"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400105",
+        "national_code": "2120274665",
+        "type": "hematologic",
+        "cc": "neurologist refer"
+      },
+      "_id": "patient_1762695074555",
+      "patient_id": "P-112",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "5.8",
+        "hb": "12.2",
+        "plt": "137",
+        "tsh": "3",
+        "cr": "0.9",
+        "spep": "nl",
+        "viral": "0",
+        "sife": "nl",
+        "b12": "412",
+        "ttg": "0",
+        "anti-ro": "nl",
+        "anti-la": "nl"
+      },
+      "symptoms": "weight loss",
+      "signs": "Sensorimotor polyneuropathy "
+    },
+    {
+      "info": {
+        "file_number": "400104",
+        "national_code": "2249665151",
+        "type": "hematologic",
+        "cc": "thrombocytopenia"
+      },
+      "_id": "patient_1762695565015",
+      "patient_id": "P-113",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "9.4",
+        "hb": "15.1",
+        "plt": "139",
+        "tsh": "0.8",
+        "psa": "nl",
+        "hba1c": "9.3"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "liver": "nl",
+          "spleen": "nl",
+          "prostate": "50mm"
+        }
+      },
+      "pmh": {
+        "dm": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400103",
+        "national_code": "0",
+        "type": "oncologic",
+        "cc": "face mass"
+      },
+      "_id": "patient_1762695748712",
+      "patient_id": "P-114",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "other": "MRI"
+        }
+      },
+      "signs": "right mandible mass / lap anterior posterior / bell's palsy"
+    },
+    {
+      "info": {
+        "file_number": "400102",
+        "national_code": "2239622733",
+        "type": "hematologic",
+        "cc": "fatigue"
+      },
+      "_id": "patient_1762696032481",
+      "patient_id": "P-115",
+      "treatment_plan_baseline": {
+        "intent": "supportive"
+      },
+      "lab": {
+        "wbc": "5.9",
+        "hb": "11.9",
+        "plt": "230",
+        "ferritin": "69",
+        "spep": "nl",
+        "hb_e": {
+          "a2": "2"
+        }
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "liver": "grade 1 fatty liver"
+        }
+      },
+      "symptoms": "chest pain"
+    },
+    {
+      "info": {
+        "file_number": "400101",
+        "national_code": "2239622741",
+        "type": "hematologic",
+        "cc": "bruise",
+        "primary_diagnosis": "Lichen planus / sarcoidosis"
+      },
+      "_id": "patient_1762696266562",
+      "patient_id": "P-116",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "8",
+        "hb": "12.8",
+        "plt": "242",
+        "tsh": "7.9",
+        "viral": "0",
+        "anti_tpo": "70"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "liver": "137mm",
+          "spleen": "100mm"
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "abortion": "0",
+        "Menopause": "1"
+      },
+      "signs": "erythematous pruritic rash"
+    },
+    {
+      "info": {
+        "file_number": "400100",
+        "national_code": "2110769009",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762696848616",
+      "patient_id": "P-117",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "8.3",
+        "hb": "10.2",
+        "plt": "501",
+        "ferritin": "61",
+        "mcv": "57",
+        "tsh": "3.21",
+        "cr": "0.9",
+        "viral": "0",
+        "ast": "41",
+        "alt": "14",
+        "ldh": "262",
+        "d3": "22",
+        "hb_e": {
+          "a2": "4",
+          "f": "1.1"
+        },
+        "coombs": "negative",
+        "fe": "65",
+        "prolactin": "37"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl"
+        }
+      },
+      "pmh": {
+        "thalassemia": "minor"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40099",
+        "national_code": "2032360861",
+        "type": "hematologic",
+        "cc": "headache"
+      },
+      "_id": "patient_1762697643944",
+      "patient_id": "P-118",
+      "treatment_plan_baseline": {
+        "intent": "supportive",
+        "plan": {
+          "regimen": "mds - prednisolone"
+        }
+      },
+      "lab": {
+        "wbc": "3.1",
+        "hb": "4.8",
+        "plt": "114",
+        "ferritin": "265",
+        "mcv": "89",
+        "cr": "1.1",
+        "spep": "nl",
+        "esr": "160",
+        "ldh": "310",
+        "mch": "25",
+        "hb_e": {
+          "a2": "3.3"
+        },
+        "epo": "86",
+        "b2-micro": "116",
+        "haptoglobin": "10",
+        "oft": "nl",
+        "g6pd": "nl"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "abnormal",
+          "liver": "nl",
+          "spleen": "174mm"
+        }
+      },
+      "pathology": {
+        "bma-b": {
+          "cellularity ": "85",
+          "dx": "ro Hemoglobinopathy ",
+          "m/e": "5/10",
+          "mega": "increased"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40098",
+        "national_code": "2249296121",
+        "type": "hematologic",
+        "cc": "check up"
+      },
+      "_id": "patient_1762698255978",
+      "patient_id": "P-119",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "regimen": "b1+gabapentin"
+        }
+      },
+      "lab": {
+        "cr": "1.19",
+        "spep": "nl",
+        "d3": "49",
+        "fana": "0",
+        "b12": "110",
+        "b2-micro": "7.2",
+        "hba1c": "7.6"
+      },
+      "pmh": {
+        "dm": "1"
+      },
+      "symptoms": "neuropathy"
+    },
+    {
+      "info": {
+        "file_number": "40097",
+        "national_code": "2121293892",
+        "type": "oncologic",
+        "cc": "anemia",
+        "primary_diagnosis": "MM"
+      },
+      "_id": "patient_1762698445826",
+      "patient_id": "P-120",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "4.1",
+        "hb": "11.8",
+        "plt": "150",
+        "ferritin": "102",
+        "tsh": "3.8",
+        "cr": "0.9",
+        "spep": "gamma peak",
+        "esr": "21",
+        "ldh": "358",
+        "ca": "9.6",
+        "sife": "igG/lamba",
+        "b2-micro": "1.6",
+        "kappa/lamda": "189/408"
+      },
+      "imaging_baseline": {
+        "graphy": {
+          "bone_survey": "nl"
+        }
+      },
+      "pmh": {
+        "PTC": "1"
+      },
+      "pathology": {
+        "bma-b": {
+          "cellularity ": "50",
+          "fe": "1-2/5",
+          "plasma-cell": "10"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "40096",
+        "national_code": "2030901857",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "megaloblastic anemia"
+      },
+      "_id": "patient_1762698868505",
+      "patient_id": "P-121",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "mds vit"
+        }
+      },
+      "lab": {
+        "wbc": "2.4",
+        "hb": "6.4",
+        "plt": "146",
+        "mcv": "118",
+        "mch": "37",
+        "pmn": "62",
+        "lym": "37"
+      }
+    },
+    {
+      "info": {
+        "file_number": "40095",
+        "national_code": "2121960449"
+      },
+      "_id": "patient_1762699021315",
+      "patient_id": "P-122"
+    },
+    {
+      "info": {
+        "file_number": "40094",
+        "national_code": "2239708743",
+        "type": "oncologic",
+        "cc": "known breast cancer"
+      },
+      "_id": "patient_1762699050266",
+      "patient_id": "P-123"
+    },
+    {
+      "info": {
+        "file_number": "40093",
+        "national_code": "0",
+        "type": "oncologic",
+        "cc": "cough"
+      },
+      "_id": "patient_1762699140466",
+      "patient_id": "P-124",
+      "treatment_plan_baseline": {
+        "intent": "supportive",
+        "plan": {
+          "regimen": "palliative recommended",
+          "other": "ct endo colon if wants to treat"
+        }
+      },
+      "lab": {
+        "wbc": "10",
+        "hb": "11.8",
+        "plt": "366",
+        "cr": "0.85",
+        "esr": "95",
+        "ast": "49",
+        "alt": "56",
+        "alp": "509",
+        "igra": "negative"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "abnormal",
+          "liver": "multiple liver lesions"
+        }
+      },
+      "signs": "performance score = 3"
+    },
+    {
+      "info": {
+        "file_number": "400140",
+        "national_code": "6289760416",
+        "type": "oncologic",
+        "cc": "cancer f/u"
+      },
+      "_id": "patient_1762699551730",
+      "patient_id": "P-125",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "other": "mri after 6 month",
+          "surgery": "tahbso "
+        }
+      },
+      "lab": {
+        "hb": "14.8",
+        "ferritin": "24"
+      },
+      "imaging_baseline": {
+        "graphy": {
+          "mamography": {
+            "status": "nl",
+            "findings": "birads 0"
+          }
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "400139",
+        "national_code": "5339276996",
+        "type": "oncologic",
+        "cc": "gastroenterologist refer",
+        "primary_diagnosis": "colon cancer",
+        "cancer_type": "solid"
+      },
+      "_id": "patient_1762700010186",
+      "patient_id": "P-126",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "other": "ct / ihc / cardiology consult"
+        }
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "abdomen ": {
+            "status": "abnormal",
+            "finding": "ascites / hepatic mets 63*44"
+          }
+        },
+        "gastric": {
+          "colonoscopy ": {
+            "status": "abnormal",
+            "findings": "sigmoid mass"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1"
+      },
+      "pathology": {
+        "histology": "well diffrentiaed adenocarcinoma"
+      },
+      "disease_characteristics": {
+        "primary_site": "colon",
+        "laterality": "sigmoid"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400138",
+        "national_code": "2121055665",
+        "type": "hematologic",
+        "cc": "thrombocytosis"
+      },
+      "_id": "patient_1762700294706",
+      "patient_id": "P-127",
+      "treatment_plan_baseline": {
+        "intent": "supportive",
+        "plan": {
+          "regimen": "hydroxyurea+asa+folic acid",
+          "other": "bma/b recommended"
+        }
+      },
+      "lab": {
+        "hb": "12.1",
+        "wbc": "7.6",
+        "plt": "800",
+        "ferritin": "103",
+        "mcv": "89",
+        "cr": "1",
+        "ast": "24",
+        "alt": "27",
+        "d3": "25",
+        "fana": "0",
+        "ca": "10",
+        "epo": "9.6",
+        "b12": "455",
+        "jak2": "0",
+        "hla135": "0"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "spleen": "100mm",
+          "findings": "cholecystectomy done"
+        },
+        "ct_scan": {
+          "chest1": {
+            "status": "abnormal",
+            "finding": "left lower lobe mass 40*56mm ro atelectasis "
+          }
+        }
+      },
+      "pmh": {
+        "dm": "1"
+      },
+      "pathology": {
+        "molecular": {
+          "JAK2": "0"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "400137",
+        "national_code": "2230196901",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762700991170",
+      "patient_id": "P-128",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "iron"
+        }
+      },
+      "lab": {
+        "hb": "9.9",
+        "wbc": "4.17",
+        "plt": "133",
+        "mcv": "82",
+        "mch": "27",
+        "coombs": "negative"
+      },
+      "pmh": {
+        "Pregnancy": "positive"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400136",
+        "national_code": "4860468775",
+        "type": "hematologic",
+        "cc": "check up"
+      },
+      "_id": "patient_1762701223429",
+      "patient_id": "P-129",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "15"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400135",
+        "national_code": "2110167521",
+        "type": "oncologic",
+        "cc": "ovarian cancer fu"
+      },
+      "_id": "patient_1762701276642",
+      "patient_id": "P-130",
+      "treatment_plan_baseline": {
+        "intent": "f/u",
+        "plan": {
+          "regimen": "EP",
+          "other": "EP(96) + ovarian cyst surgery ",
+          "surgery": "thlso"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "400134",
+        "national_code": "6289625322",
+        "type": "oncologic",
+        "cc": "hand mass",
+        "primary_diagnosis": "synovial sarcoma"
+      },
+      "_id": "patient_1762701596314",
+      "patient_id": "P-131",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "other": "crt recommended",
+          "surgery": "mass resection",
+          "radiotherapy": "referred"
+        }
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "chest1": {
+            "status": "nl"
+          },
+          "abdomen ": {
+            "status": "nl"
+          },
+          "pelvis1": {
+            "status": "nl"
+          }
+        },
+        "mri": {
+          "upper_limb": {
+            "status": "abnormal",
+            "findings": "43*23mm mass r/o relapse or residual tumor"
+          }
+        }
+      },
+      "pathology": {
+        "histology": "synovial sarcoma",
+        "ihc": {
+          "Ki67": "25",
+          "tle1": "positive",
+          "cd99": "positive",
+          "ema": "positive"
+        }
+      },
+      "disease_characteristics": {
+        "primary_site": "hand",
+        "stage": {
+          "t": "2",
+          "n": "x",
+          "m": "x"
+        },
+        "laterality": "left"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400133",
+        "national_code": "4879567264",
+        "type": "oncologic",
+        "cc": "left thigh mass",
+        "primary_diagnosis": "sarcoma"
+      },
+      "_id": "patient_1762702083620",
+      "patient_id": "P-132",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "vincristine",
+          "other": "resection => relapse => resection+radiotherapy => chemotherapy"
+        }
+      },
+      "pathology": {
+        "histology": "undifferentiated pleomorphic sarcoma",
+        "ihc": {
+          "Ki67": "30",
+          "cd34": "negative",
+          "cd68": "positive",
+          "ck": "negative",
+          "desmin": "negative",
+          "s100": "negative"
+        }
+      },
+      "disease_characteristics": {
+        "primary_site": "thigh",
+        "laterality": "left"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400132",
+        "national_code": "2269575970"
+      },
+      "_id": "patient_1762702712054",
+      "patient_id": "P-133"
+    },
+    {
+      "info": {
+        "file_number": "400131",
+        "national_code": "6289221329",
+        "type": "hematologic",
+        "cc": "anemia",
+        "primary_diagnosis": "MDS "
+      },
+      "_id": "patient_1762702734621",
+      "patient_id": "P-134",
+      "treatment_plan_baseline": {
+        "intent": "supportive",
+        "plan": {
+          "regimen": "mds"
+        }
+      },
+      "lab": {
+        "wbc": "3.8",
+        "hb": "9.2",
+        "plt": "109",
+        "ferritin": "29",
+        "mcv": "74",
+        "tsh": "1.2",
+        "cr": "0.8",
+        "viral": "0",
+        "ast": "38",
+        "alt": "26",
+        "ldh": "680",
+        "mch": "23",
+        "pmn": "60",
+        "lym": "37",
+        "coombs": "negative",
+        "epo": "29",
+        "hba1c": "6.7",
+        "bili-t": "1.6",
+        "biti-d": "0.4",
+        "calprotectin": "0"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "abnormal",
+          "liver": "IVC Prominent RO CHF",
+          "spleen": "nl",
+          "pelvis": {
+            "status": "nl"
+          }
+        }
+      },
+      "pmh": {
+        "htn": "1",
+        "dm": "1",
+        "hypothyroidism": "1",
+        "cardiac": "mitral valve replacement surgery"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400130",
+        "national_code": "6289421565",
+        "type": "hematologic",
+        "cc": "thrombocytopenia"
+      },
+      "_id": "patient_1762703485496",
+      "patient_id": "P-135",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "3.4",
+        "hb": "14.4",
+        "plt": "145",
+        "pmn": "60",
+        "lym": "37",
+        "psa": "nl",
+        "secondory_wu": "nl"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "prostate": "absent"
+        }
+      },
+      "pmh": {
+        "other": "Prostatectomy "
+      }
+    },
+    {
+      "info": {
+        "file_number": "400129",
+        "national_code": "2181550263",
+        "type": "oncologic",
+        "cc": "prostate cancer fu"
+      },
+      "_id": "patient_1762703678059",
+      "patient_id": "P-136",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "zoladex+xgeva+xybron / mds+eprex"
+        }
+      },
+      "lab": {
+        "wbc": "2.4",
+        "hb": "8.9",
+        "plt": "84",
+        "mcv": "95",
+        "cr": "1.6",
+        "mch": "31",
+        "pmn": "35",
+        "lym": "45",
+        "ca": "9.1",
+        "b12": "nl",
+        "2me": "0",
+        "b2-micro": "3.3",
+        "psa": "0.34",
+        "ppd": "negative",
+        "free_psa": "0.08"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl",
+          "liver": "110mm",
+          "spleen": "105mm",
+          "prostate": "heterogen"
+        },
+        "ct_scan": {
+          "chest1": {
+            "status": "abnormal",
+            "finding": "ild"
+          }
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "400128",
+        "national_code": "2121857265",
+        "type": "oncologic",
+        "cc": "gastroenterologist refer",
+        "primary_diagnosis": "gastric cancer",
+        "cancer_type": "solid"
+      },
+      "patient_id": "P-137",
+      "_id": "patient_1762704065572",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "flot4",
+          "surgery": "HIPEC"
+        }
+      },
+      "lab": {
+        "viral": "0"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "abdomen ": {
+            "status": "abnormal",
+            "finding": "spleen mets / splenric vessel mets / "
+          }
+        },
+        "gastric": {
+          "endoscopy ": {
+            "status": "abnormal",
+            "finding": "cardia mass"
+          },
+          "eus": {
+            "status": "abnormal",
+            "finding": "t4n1"
+          }
+        }
+      },
+      "pmh": {
+        "dm": "1"
+      },
+      "pathology": {
+        "histology": "adenocarcinoma",
+        "ihc": {
+          "mmr": "pmmr"
+        }
+      },
+      "disease_characteristics": {
+        "primary_site": "gastric",
+        "laterality": "cardia",
+        "stage": {
+          "t": "4b",
+          "n": "2"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "400127",
+        "national_code": "4970012091",
+        "type": "hematologic",
+        "cc": "nephrologist refer Leukopenia"
+      },
+      "_id": "patient_1762704771412",
+      "patient_id": "P-138",
+      "treatment_plan_baseline": {
+        "intent": "f/u"
+      },
+      "lab": {
+        "wbc": "3.4",
+        "hb": "13.4",
+        "plt": "243",
+        "cr": "1.1",
+        "esr": "12",
+        "viral": "0",
+        "ldh": "461",
+        "pmn": "56",
+        "lym": "44",
+        "fana": "29",
+        "anti-dsdna": "55"
+      },
+      "pmh": {
+        "kidney": "proteinuria "
+      },
+      "dh": {
+        "tacrolimus": "1",
+        "prednisolone ": "1"
+      }
+    },
+    {
+      "info": {
+        "file_number": "400145",
+        "national_code": "120823903410",
+        "type": "oncologic",
+        "cc": "Dyspepsia",
+        "primary_diagnosis": "gastric cancer"
+      },
+      "_id": "patient_1762705637357",
+      "patient_id": "P-139",
+      "treatment_plan_baseline": {
+        "intent": "curative",
+        "plan": {
+          "regimen": "folfox"
+        }
+      },
+      "lab": {
+        "cr": "0.87",
+        "psa": "5.5"
+      },
+      "imaging_baseline": {
+        "ct_scan": {
+          "abdomen ": {
+            "status": "abnormal",
+            "finding": "hepatic mets / regional lap"
+          },
+          "pelvis1": {
+            "status": "abnormal",
+            "findings": "bladder prostate suspicious"
+          }
+        },
+        "gastric": {
+          "endoscopy ": {
+            "status": "abnormal",
+            "finding": "gastric mass"
+          }
+        }
+      },
+      "pmh": {
+        "cardiac": "cabg",
+        "bph": "1",
+        "prostate cancer": "1"
+      },
+      "pathology": {
+        "histology": "moderate diffrentiated adenocarcinoma",
+        "ihc": {
+          "HER2": "3+",
+          "mmr": "pmmr"
+        }
+      }
+    },
+    {
+      "info": {
+        "file_number": "400144",
+        "national_code": "2239736313"
+      },
+      "_id": "patient_1762706093732",
+      "patient_id": "P-140"
+    },
+    {
+      "info": {
+        "file_number": "400143",
+        "national_code": "6289877984",
+        "type": "hematologic",
+        "cc": "anemia"
+      },
+      "_id": "patient_1762706135620",
+      "patient_id": "P-141",
+      "treatment_plan_baseline": {
+        "intent": "curative"
+      },
+      "lab": {
+        "wbc": "4.8",
+        "hb": "7.8",
+        "plt": "290",
+        "ferritin": "7.5",
+        "mcv": "57",
+        "viral": "0",
+        "mch": "16",
+        "d3": "27",
+        "hb_e": {
+          "a2": "2.5"
+        },
+        "fe": "12"
+      },
+      "imaging_baseline": {
+        "sonpography": {
+          "status": "nl"
+        },
+        "graphy": {
+          "mamography": {
+            "birads": "0",
+            "status": "abnormal"
+          }
+        }
+      }
+    },
+    {
+      "_id": "patient_1764369867488",
+      "patient_id": "P-142",
+      "info": {
+        "file_number": "40043",
+        "national_code": "2020157136"
+      }
+    }
+  ],
+  "schema": {
+    "info": {
+      "file_number": "",
+      "national_code": "",
+      "type": "",
+      "cc": "",
+      "primary_diagnosis": "",
+      "cancer_type": ""
+    },
+    "disease_characteristics": {
+      "laterality": "",
+      "primary_site": "",
+      "stage": {
+        "system": "",
+        "t": "",
+        "n": "",
+        "m": "",
+        "overall_stage": ""
+      }
+    },
+    "pathology": {
+      "histology": "",
+      "grade": "",
+      "report_date": "",
+      "lab": "",
+      "specimen_id": "",
+      "ihc": {
+        "ER": "",
+        "PR": "",
+        "HER2": "",
+        "Ki67": "",
+        "mmr": "",
+        "ck7": "",
+        "ck20": "",
+        "ttf-1": "",
+        "pdl1": "",
+        "egfr": "",
+        "cd34": "",
+        "mlh1": "",
+        "pms2": "",
+        "cd20": "",
+        "cd45": "",
+        "cd3": "",
+        "bcl6": "",
+        "bcl2": "",
+        "mvm1": "",
+        "tle1": "",
+        "cd99": "",
+        "ema": "",
+        "cd68": "",
+        "ck": "",
+        "desmin": "",
+        "s100": ""
+      },
+      "molecular": {
+        "BRCA1": "",
+        "BRCA2": "",
+        "EGFR": "",
+        "JAK2": ""
+      },
+      "bma-b": {
+        "cellularity ": "",
+        "lymphocyte": "",
+        "dx": "",
+        "fe": "",
+        "m/e": "",
+        "mega": "",
+        "plasma-cell": "",
+        "blast": ""
+      },
+      "flowcytometry": {
+        "cd20": ""
+      }
+    },
+    "imaging_baseline": {
+      "ct_scan": {
+        "date": "",
+        "findings": "",
+        "chest": "",
+        "pelvis": "",
+        "abdomen": "",
+        "axilla": "",
+        "chest1": {
+          "mass": "",
+          "lap": "",
+          "status": "",
+          "finding": ""
+        },
+        "abdomen ": {
+          "status": "",
+          "lap": "",
+          "mass": "",
+          "finding": ""
+        },
+        "status": "",
+        "pelvis1": {
+          "status": "",
+          "lap": "",
+          "findings": ""
+        },
+        "brain": {
+          "status": ""
+        }
+      },
+      "pet_ct": {
+        "date": "",
+        "findings": ""
+      },
+      "bone_scan": {
+        "date": "",
+        "findings": "",
+        "status": ""
+      },
+      "sonpography": {
+        "spleen": "",
+        "liver": "",
+        "status": "",
+        "prostate": "",
+        "axilla": "",
+        "inguinal ": "",
+        "thyroid": "",
+        "kidney": "",
+        "neck": {
+          "status": "",
+          "finding": ""
+        },
+        "breast": {
+          "birads": "",
+          "finding": "",
+          "status": ""
+        },
+        "pelvis": {
+          "status": "",
+          "finding": ""
+        },
+        "findings": ""
+      },
+      "gastric": {
+        "colonoscopy ": {
+          "status": "",
+          "hemorrhoid": "",
+          "findings": ""
+        },
+        "endoscopy ": {
+          "status": "",
+          "finding": ""
+        },
+        "eus": {
+          "status": "",
+          "finding": ""
+        }
+      },
+      "mri": {
+        "brain": {
+          "status": "",
+          "findings": ""
+        },
+        "abdomen ": {
+          "status": "",
+          "findings ": "",
+          "lap": ""
+        },
+        "spine": {
+          "status": "",
+          "findings": ""
+        },
+        "upper_limb": {
+          "status": "",
+          "findings": ""
+        }
+      },
+      "graphy": {
+        "mamography": {
+          "birads": "",
+          "status": "",
+          "findings": ""
+        },
+        "bone_survey": ""
+      }
+    },
+    "treatment_plan_baseline": {
+      "intent": "",
+      "planned_regimen": "",
+      "start_date": "",
+      "plan": {
+        "regimen": "",
+        "surgery": "",
+        "radiotherapy": "",
+        "other": ""
+      }
+    },
+    "metadata": {
+      "data_version": "",
+      "entered_by": "",
+      "source_doc_id": "",
+      "last_reviewed": ""
+    },
+    "lab": {
+      "wbc": "",
+      "hb": "",
+      "plt": "",
+      "ast": "",
+      "alt": "",
+      "alp": "",
+      "ttg": "",
+      "viral": "",
+      "spep": "",
+      "tsh": "",
+      "ldh": "",
+      "pbs": "",
+      "ace": "",
+      "fana": "",
+      "ferritin": "",
+      "d3": "",
+      "mcv": "",
+      "esr": "",
+      "calprotectin": "",
+      "anti_tpo": "",
+      "epo": "",
+      "cea": "",
+      "ca15-3": "",
+      "cr": "",
+      "secondory_wu": "",
+      "ca": "",
+      "pmn": "",
+      "lym": "",
+      "coombs": "",
+      "b2-micro": "",
+      "b12": "",
+      "hb_e": {
+        "a2": "",
+        "f": ""
+      },
+      "sife": "",
+      "inr": "",
+      "alb": "",
+      "bili-t": "",
+      "biti-d": "",
+      "afp": "",
+      "ca19-9": "",
+      "anti-dsdna": "",
+      "2me": "",
+      "wright": "",
+      "fe": "",
+      "psa": "",
+      "mch": "",
+      "pth": "",
+      "gamma": "",
+      "kappa/lamda": "",
+      "beta2micro": "",
+      "uife": "",
+      "hba1c": "",
+      "fbs": "",
+      "anti-ccp": "",
+      "ppd": "",
+      "retic": "",
+      "ca125": "",
+      "haptoglobin": "",
+      "oft": "",
+      "igE": "",
+      "ama": "",
+      "jak2": "",
+      "igA": "",
+      "thyroglobulin": "",
+      "upep": "",
+      "anti-ro": "",
+      "anti-la": "",
+      "prolactin": "",
+      "g6pd": "",
+      "igra": "",
+      "hla135": "",
+      "free_psa": ""
+    },
+    "pmh": {
+      "premature menopause": "",
+      "Appendectomy": "",
+      "hydatid cyst": "",
+      "htn": "",
+      "hypothyroidism": "",
+      "Psoriasis": "",
+      "Menopause": "",
+      "dm": "",
+      "menoraghia": "",
+      "cardiac": "",
+      "abortion": "",
+      "Pregnancy": "",
+      "esrd": "",
+      "other": "",
+      "ckd": "",
+      "asthma": "",
+      "aki": "",
+      "bph": "",
+      "thalassemia": "",
+      "hepatitis_b": "",
+      "hlp": "",
+      "p.vera": "",
+      "cva": "",
+      "pneumonia": "",
+      "depression": "",
+      "alzheimer": "",
+      "migraine": "",
+      "bipolar": "",
+      "PTC": "",
+      "kidney": "",
+      "prostate cancer": ""
+    },
+    "sh": {
+      "smoker": "",
+      "addict": ""
+    },
+    "fh": {
+      "gastric": "",
+      "ovarian": "",
+      "breast": "",
+      "leukemia": "",
+      "lymphoma": "",
+      "pruritus": ""
+    },
+    "symptoms": "",
+    "signs": "",
+    "dh": {
+      "methyldopa": "",
+      "cellcept": "",
+      "sandimmun": "",
+      "eprex": "",
+      "tacrolimus": "",
+      "prednisolone ": ""
+    }
+  }
+}
